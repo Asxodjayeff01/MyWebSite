@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header start */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.link {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.header {
+    min-height: 700px;
+    max-height: 700px;
+    background: url(../img/header_bg.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+}
+
+.title {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.call {
+    background: #fff;
+    color: #000;
+    font-size: 24px;
+    max-width: 300px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    transition: 400ms;
+}
+h2 {
+    text-align: center;
+}
+.myworks {
+    text-align: center;
+    font-size: 25px;
+}
+
+.card {
+    max-width: 350px;
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    /* border-color: #000;
+    border-width: 5px;
+    border-style: outset; */
+    border: 5px outset #000;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+.card_link {
+    background: #000;
+    max-width: 210px;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    transition: 400ms;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.call:hover {
+    background: #9400d3;
+    border-radius: 50px 50px
+    ;
+}
+.card_link:hover {
+    background: red;
+    border-radius: 60px 40px;
+}
+/* header end */
